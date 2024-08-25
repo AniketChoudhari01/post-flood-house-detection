@@ -2,12 +2,12 @@
 # Post-Flood House Detection Using UAV Images
 Project work done for the IP1202 course of our 4th Semester
 
-reference paper:
+reference paper: (https://ieeexplore.ieee.org/document/10627833)
 
 ## Team members
-- Aniket Choudhari (CS22B1010, GitHub:)
-- Aditya Kumar Singh (CS22B1001, GitHub:)
-- Ankit Kujur (CS21B1005, GitHub:)
+- Aniket Choudhari (CS22B1010, GitHub: [Aniket-Choudhari-01](https://github.com/Aniket-Choudhari-01))
+- Aditya Kumar Singh (CS22B1001, GitHub: [Adityacse1001](https://github.com/Adityacse1001/Adityacse1001))
+- Ankit Kujur (CS21B1005, GitHub: [AnkitKujur](https://github.com/Akitkujur025))
 
 # Project Overview
 The project aims to use YOLOv9 and UAV images to detect and classify houses after a flood. The model will sort houses into three categories: "flooded," "not-flooded," or "partially-flooded" to help with rescue and recovery efforts.
@@ -72,16 +72,29 @@ verbose = True
 ## Results
 
 ### confusion matrix
-
+![Confusion Matrix](results/confusion%20matrix.jpg)
 
 ### Precision-Recall (PR) Curve
+![PR Curve](results/PR%20curve.jpg)
 
+### F1-Confidence Curve
+![F1-Confidence Curve](results/F1-Confidence%20Curve.jpg)
 ### other metric
-
+![Other Metric](results/other%20metric.jpg)
 ### Detection Results Visualization
+#### sample output1:
+![Sample output1](results/output.jpg)
+#### sample output2:
+![Sample output2](results/output1.jpg)
+#### sample output3:
+![Sample output3](results/output2.jpg)
 
-
-
+## Future Work
+- Explore and evaluate different models to find potentially better solutions for the detection and classification tasks.
+- Expand the dataset with more varied images and annotations to cover different flood scenarios and reduce class imbalance.
+- Refine training parameters like learning rates and batch sizes to enhance model accuracy and performance.
+- Experiment with adjustments to the YOLOv9 structure or try alternative network architectures for better results.
+- Use advanced techniques for data augmentation to generate more diverse training data and improve model robustness.
 
 
 
