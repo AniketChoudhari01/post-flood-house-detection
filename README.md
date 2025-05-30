@@ -5,7 +5,7 @@ Project work done for the IP1202 course of our 4th Semester
 reference paper: (https://ieeexplore.ieee.org/document/10627833)
 
 ## Team members
-- Aniket Choudhari (CS22B1010, GitHub: [Aniket-Choudhari-01](https://github.com/Aniket-Choudhari-01))
+- Aniket Choudhari (CS22B1010, GitHub: [Aniket-Choudhari-01](https://github.com/AniketChoudhari01))
 - Aditya Kumar Singh (CS22B1001, GitHub: [Adityacse1001](https://github.com/Adityacse1001/Adityacse1001))
 - Ankit Kujur (CS21B1005, GitHub: [AnkitKujur](https://github.com/Akitkujur025))
 
